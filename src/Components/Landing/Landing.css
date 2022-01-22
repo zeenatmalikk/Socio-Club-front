@@ -1,0 +1,81 @@
+@import url('https://rsms.me/inter/inter.css');
+*{
+    scroll-behavior: smooth;
+}
+.landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #0F1216;
+}
+
+.title-l, .title2-l{
+    font-size: 100px;
+    font-family: 'Inter var', sans-serif;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 100px;
+    background: -webkit-linear-gradient(#f5536b, #e22794);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.desc-l{
+    font-family: 'Inter var', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    line-height: 34px;
+    color: #fff;
+
+}
+.btn-l{
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: linear-gradient(to bottom right, #f5536b 0%, #e22794 100%);
+    color: #fff;
+    font-family: 'Inter var', sans-serif;
+
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 29px;
+
+}
+.l-avail{
+    color: #fff;
+    opacity: 0.5;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+@media only screen and (max-width:600px){
+    .title-l, .title2-l{
+        font-size: 79px;
+        font-family: 'Inter var', sans-serif;
+        font-weight: 900;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        line-height: 78px;
+        background: -webkit-linear-gradient(#f5536b, #e22794);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .l-avail{
+        color: #fff;
+        opacity: 0.5;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: center;
+    }
+    .landing{
+        height: auto;
+    }
+}
