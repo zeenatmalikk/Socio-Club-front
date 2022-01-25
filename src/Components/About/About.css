@@ -1,0 +1,53 @@
+.about{
+   padding: 20px;
+}
+.title-a{
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 100px;
+    background: -webkit-linear-gradient(#f5536b, #e22794);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;
+
+}
+.desc-a{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+
+}
+.abt{
+    display: flex;
+    
+}
+
+.abt-p{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.abt-point{
+    font-size: 25px;
+}
+.abt-desc{
+    font-size: 17px;
+font-weight: 500;
+width: 80%;
+}
+.abt-icon{
+    font-size: 28px;
+    padding: 0;
+    margin: 0;
+}
+.img-abt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-abt img{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}

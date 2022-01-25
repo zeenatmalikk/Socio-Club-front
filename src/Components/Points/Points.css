@@ -1,12 +1,19 @@
 @import url("https://rsms.me/inter/inter.css");
 
+*{
+  color: #fff;
+  font-family: "Inter var", sans-serif;
+  background-color: #0f1216;
+}
+
 .points {
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #0f1216;
   flex-direction: column;
+  margin: 5% 0;
 }
 .p-desc {
   font-family: "Inter var", sans-serif;
@@ -50,4 +57,27 @@
     font-size: 18px;
     width: 90%;
   }
+}
+
+.card-p{
+  margin: 10px;
+}
+.title-c-p{
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 45px;
+  margin: 0;
+  padding: 0;
+
+}
+.desc-c-p{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+.icon-p{
+  font-size: 25px;
+}
+.container-p{
+  width: 60%;
 }

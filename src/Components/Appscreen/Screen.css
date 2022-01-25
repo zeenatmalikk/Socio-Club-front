@@ -1,20 +1,29 @@
-.screen{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center; background-color: #0F1216;
+.img1-s{
+  height: auto;
+  width: 100%;
+  position: relative;
+  bottom: 5%;
+  left: 10%;
 }
-
+.img2-s{
+  height: auto;
+  width: 100%;
+  position: relative;
+  right: 13%;
+  top: 10%;
+}
 .smartphone {
     position: relative;
     width: 360px;
-    height: 610px;
+    height: 590px;
     /* margin: auto; */
     border: 16px black solid;
     border-top-width: 60px;
     border-bottom-width: 60px;
     border-radius: 36px;
 box-shadow: 1px 1px 1px 1px #fff;
+z-index: 100;
+
   }
   
   /* The horizontal line on the top of the device */
@@ -39,7 +48,7 @@ box-shadow: 1px 1px 1px 1px #fff;
     height: 35px;
     position: absolute;
     left: 50%;
-    bottom: -65px;
+    bottom: -75px;
     transform: translate(-50%, -50%);
     background: #333;
     border-radius: 50%;
@@ -53,4 +62,11 @@ box-shadow: 1px 1px 1px 1px #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  
+  .center-s-g{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
   }

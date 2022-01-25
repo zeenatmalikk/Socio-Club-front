@@ -1,5 +1,8 @@
+import { Grid } from "@mui/material";
+import Container from "@mui/material/Container";
 import React from "react";
-import "./Points.css"
+import { data } from "../data";
+import "./Points.css";
 const Points = () => {
   return (
     <div className="points">
@@ -14,6 +17,17 @@ const Points = () => {
         for better brainstorming, enhanced memory, intuitive organization, and
         workflows you simply can’t do elsewhere
       </p>
+        <Grid container style={{width:'90%',margin:'20px 0'}}>
+          {data.map((item) => (
+            <Grid item md={4} xs={12}>
+              <div className="card-p">
+                <div className="icon-p">{item.icon}</div>
+                <h2 className="title-c-p">{item.title}</h2>
+                <h2 className="desc-c-p">{item.desc}</h2>
+              </div>
+            </Grid>
+          ))}
+        </Grid>
     </div>
   );
 };
