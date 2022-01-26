@@ -1,14 +1,18 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./Landing.css";
 import Button from "@mui/material/Button";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 
 
 const Landing = () => {
+  useEffect(() => {
+    Aos.init({ duration: 3000 }); //initializing gives animation to every block
+  }, []);
   return (
     <div className="landing">
-     <div className="landing-glass">
+     <div data-aos='fade-down' className="landing-glass">
      <h1 className="title-l">Think better</h1>
       <h1 className="title2-l">Achieve more</h1>
       <p className="desc-l">
