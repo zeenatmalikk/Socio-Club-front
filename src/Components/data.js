@@ -33,12 +33,12 @@ export const data = [
 
 export const about = [
   {
-    icon: <i class="fas fa-check-square"></i>,
+    icon: 'https://cdn.dribbble.com/users/1152627/screenshots/17348278/media/3d9143d7c5768a7055b74a00680a8a36.png?compress=1&resize=1600x1200&vertical=top',
     title: "Manage Projects",
     desc: "Inline tasks make it simple and intuitive to manage projects large and small. Add due dates, color-coding, and status all alongside your notes.",
   },
   {
-    icon: <i class="fas fa-check-square"></i>,
+    icon: 'https://cdn.dribbble.com/users/1152627/screenshots/17348278/media/3d9143d7c5768a7055b74a00680a8a36.png?compress=1&resize=1600x1200&vertical=top',
     title: "Manage Projects",
     desc: "Inline tasks make it simple and intuitive to manage projects large and small. Add due dates, color-coding, and status all alongside your notes.",
   },

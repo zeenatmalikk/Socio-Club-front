@@ -8,7 +8,8 @@ import Button from "@mui/material/Button";
 const Landing = () => {
   return (
     <div className="landing">
-      <h1 className="title-l">Think better</h1>
+     <div className="landing-glass">
+     <h1 className="title-l">Think better</h1>
       <h1 className="title2-l">Achieve more</h1>
       <p className="desc-l">
         Clover is a digital notebook that blends notes, tasks, whiteboards, and
@@ -18,6 +19,7 @@ const Landing = () => {
       <p className="l-avail">
         Available on Mac, Windows, iPad, iPhone, and the web.
       </p>
+     </div>
     </div>
   );
 };
