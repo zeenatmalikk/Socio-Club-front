@@ -6,6 +6,7 @@ import Vidscreen from "./Components/VidScreen/Vidscreen";
 import Points from "./Components/Points/Points";
 import Review from "./Components/Review/Review";
 import About from "./Components/About/About";
+import GridFeature from "./Components/GridFeature/GridFeature";
 
 
 
@@ -16,9 +17,9 @@ function App() {
       <Landing />
       {/* <Vidscreen/> */}
       < Screen />
-      <Points />
+      <GridFeature />
       <Review />
-      <About />
+      {/* <About /> */}
     </div>
   );
 }
