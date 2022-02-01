@@ -20,14 +20,14 @@ const GridFeature = () => {
 
       </h2>
       <p className="feature-sc">​Features -</p>
-      <Grid container style={{ margin: "5% 0" }}>
+      <Grid container style={{ marginTop: "2%" }}>
         {feature.map((item) => (
           <Grid item md={3} xs={12}>
             <Grids item={item} key={item.id} />
           </Grid>
         ))}
       </Grid>
-      <div className="center-last">
+      <div data-aos='zoom-in' className="center-last">
       <div className="last">
         <div className="image">
           <img src="https://cdn.dribbble.com/users/5166438/screenshots/12472231/media/a4b9c3a0930401fc3fe36b50ba25685d.png?compress=1&resize=1600x1200&vertical=top" alt="" />

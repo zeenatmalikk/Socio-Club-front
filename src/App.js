@@ -20,7 +20,7 @@ function App() {
       <Points/>
       <GridFeature />
       <Review />
-      {/* <About /> */}
+      <About />
     </div>
   );
 }

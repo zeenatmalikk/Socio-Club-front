@@ -358,7 +358,7 @@ object-fit: cover;
       align-items: center;
       justify-content: center;
       position: relative;
-      bottom: 275px;
+      bottom: 200px;
   }
   .last img {
     width: 100%;
