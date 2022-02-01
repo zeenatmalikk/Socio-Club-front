@@ -26,7 +26,7 @@ const GridFeature = () => {
             <Grids item={item} key={item.id} />
           </Grid>
         ))}
-      </Grid>
+      </Grid> 
       <div data-aos='zoom-in' className="center-last">
       <div className="last">
         <div className="image">
