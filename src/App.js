@@ -17,6 +17,7 @@ function App() {
       <Landing />
       {/* <Vidscreen/> */}
       < Screen />
+      <Points/>
       <GridFeature />
       <Review />
       {/* <About /> */}
