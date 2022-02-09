@@ -1,5 +1,6 @@
 import { Grid } from "@mui/material";
 import React, { useState, useEffect } from "react";
+
 import Swiper from "react-id-swiper";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -84,7 +85,7 @@ const About = () => {
   };
 
   return (
-    <div>
+    <div id="about">
       <Carousel
         itemsToShow={itemsToShow}
         onNextStart={onChange}

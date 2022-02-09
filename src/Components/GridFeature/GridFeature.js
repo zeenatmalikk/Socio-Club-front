@@ -44,3 +44,10 @@ const GridFeature = () => {
 };
 
 export default GridFeature;
+{/* <Routes>
+<Route path="/" element={<Home />} />
+<Route path="/about" element={<Points />} />
+<Route path="/features" element={<GridFeature />} />
+<Route path="/review" element={<Review />} />
+<Route path="/contact" element={<Footer />} />
+</Routes> */}

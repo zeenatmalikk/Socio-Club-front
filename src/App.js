@@ -7,20 +7,30 @@ import Points from "./Components/Points/Points";
 import Review from "./Components/Review/Review";
 import About from "./Components/About/About";
 import GridFeature from "./Components/GridFeature/GridFeature";
-
-
+import Footer from "./Components/Footer/Footer";
+import Navbar from "./Components/Navbar/Navbar";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./Components/Home";
 
 function App() {
-  
   return (
     <div>
+      {/* <Navbar /> */}
+      <Navbar />
       <Landing />
       {/* <Vidscreen/> */}
-      < Screen />
-      <Points/>
+      <Screen />
+      <Points />
       <GridFeature />
       <Review />
-      <About />
+      <Footer />
+      {/* <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<Points />} />
+        <Route path="/features" element={<GridFeature />} />
+        <Route path="/review" element={<Review />} />
+        <Route path="/contact" element={<Footer />} />
+      </Routes> */}
     </div>
   );
 }

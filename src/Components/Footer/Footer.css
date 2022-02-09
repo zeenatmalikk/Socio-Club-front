@@ -1,0 +1,47 @@
+.logo-f{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-f img{
+    height: 200px;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.icon-f{
+    height: 80px;
+}
+.app-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 0 1px #9521f3, 0 0 4px #c600ee, 0 0 8px #f704f7;
+}
+
+.follow-f{
+    text-transform: capitalize;
+}
+.fa-instagram,.fa-twitter,.fa-facebook-f,.fa-youtube{
+    font-size:25px;
+    background-color: initial;
+}
+.footer-align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 80%;
+
+}
+.footer{
+background-color: #fff;
+border-top: 1px solid #fff;
+}
