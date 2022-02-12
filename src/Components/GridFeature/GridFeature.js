@@ -2,7 +2,7 @@ import { Grid } from "@mui/material";
 import Container from "@mui/material/Container";
 import Lottie from "lottie-react";
 import game from "../../lottie/game.json";
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import "./Grid.css";
 import { feature } from "../data";
 import Grids from "./Grid";
@@ -15,39 +15,19 @@ const GridFeature = () => {
   }, []);
   return (
     <div>
-      <h2 className="f-title" >
-      Socio Club - Social and Entertainment Super platform 
-
+      <h2 className="f-title">
+        Socio Club - Social and Entertainment Super platform
       </h2>
       <p className="feature-sc">​Features -</p>
       <Grid container style={{ marginTop: "2%" }}>
         {feature.map((item) => (
-          <Grid item md={3} xs={12}>
+          <Grid item md={2} xs={12}>
             <Grids item={item} key={item.id} />
           </Grid>
         ))}
-      </Grid> 
-      <div data-aos='zoom-in' className="center-last">
-      <div className="last">
-        <div className="image">
-          <img src="https://cdn.dribbble.com/users/5166438/screenshots/12472231/media/a4b9c3a0930401fc3fe36b50ba25685d.png?compress=1&resize=1600x1200&vertical=top" alt="" />
-        </div>
-
-        <div className="content">
-          <h2> High end Chat</h2>
-          <p>make Chat, Communities... With all</p>
-        </div>
-      </div>
-      </div>
+      </Grid>
     </div>
   );
 };
 
 export default GridFeature;
-{/* <Routes>
-<Route path="/" element={<Home />} />
-<Route path="/about" element={<Points />} />
-<Route path="/features" element={<GridFeature />} />
-<Route path="/review" element={<Review />} />
-<Route path="/contact" element={<Footer />} />
-</Routes> */}

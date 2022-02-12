@@ -1,17 +1,31 @@
-import React, { useEffect } from "react";
+import React, {useRef, useEffect } from "react";
 import "./Landing.css";
 
 import Button from "@mui/material/Button";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { gsap } from "gsap";
-
+import $ from "jquery"
 
 
 const Landing = () => {
   useEffect(() => {
     Aos.init({ duration: 3000 }); //initializing gives animation to every block
   }, []);
+
+  // let bg = useRef(null)
+  // let contenth1 = useRef(null)
+  // let contentp = useRef(null)
+  // useEffect(()=> {
+  //     timeline.to(bg,{
+  //         delay: 1,
+  //         duration: 2,
+  //         y: "-50%",
+  //         x: "-50%",
+  //         opacity: 1
+  //     })
+  // })
+  
   return (
     <div className="landing">
       <div className="home-image home-overlay" ></div>
@@ -47,6 +61,16 @@ const Landing = () => {
     </div>
   </div>
 </div>
+ {/* <div className="content">
+                <h1 ref={el => contenth1 = el}>
+                    Shop Now!
+                </h1>
+                <p ref={el => contentp = el}>
+                    New Arrivals!
+                </p>
+            </div>
+            <img ref={el => bg = el} src='https://cdn.pixabay.com/photo/2022/01/25/12/58/conifer-6966140_960_720.jpg' alt="bg" className="background" /> */}
+
 
     </div>
   );

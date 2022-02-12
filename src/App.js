@@ -9,14 +9,16 @@ import About from "./Components/About/About";
 import GridFeature from "./Components/GridFeature/GridFeature";
 import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
+import gsap from "gsap";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./Components/Home";
 
 function App() {
+  let timeline = gsap.timeline();
   return (
     <div>
       {/* <Navbar /> */}
-      <Navbar />
+      <Navbar timeline={timeline} />
       <Landing />
       {/* <Vidscreen/> */}
       <Screen />
